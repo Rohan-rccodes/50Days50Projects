@@ -35,6 +35,7 @@
                 align-items: center;
                 justify-content: center;
                 text-decoration: none;
+                padding: 1rem 1.8rem;
             }
 
             .bar .has-dropdown ul li a {
@@ -54,6 +55,18 @@
                 background-color: rgb(165, 113, 16);
                 color: white;
             }
+
+            .dropdown {
+background-color: rgb(245, 193, 97);
+padding: 0;
+list-style: none;
+display: none;
+}
+            .bar li .has-dropdown:hover .dropdown {
+                display: block;
+            }
+
+
         </style>
     </head>
 
@@ -89,6 +102,16 @@
 
                     </li>
 
+                    <li class="has-dropdown">
+                    
+                        <a href="#">Join</a>
+                    
+                        <ul class="dropdown">
+                            <li><a href="#">The Company</a></li>
+                            <li><a href="#">The Team</a></li>
+                        </ul>
+                    
+                    </li>
                     <li><a href="#">Careers</a></li>
                 </ul>
 
