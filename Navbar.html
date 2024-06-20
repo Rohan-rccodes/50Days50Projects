@@ -15,7 +15,6 @@
         width: 100%;
         height: 100vh;
         /* background-color: #010058; */
-        background: url('https://images.pexels.com/photos/1486677/pexels-photo-1486677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -23,6 +22,8 @@
     }
 
     nav {
+        z-index:-1;
+        position: fixed;
         padding: 0rem 2rem;
         width: 100%;
         height: 8vh;
@@ -55,6 +56,17 @@
         background-color: #010058;
         border-radius: 5px;
     }
+    .page
+    {
+        z-index: 11;
+        background-color: #6306e6;
+        width: 100%;
+        height: 300vh;
+    }
+    p{
+        font-size: 2.2rem;
+        color: #fff;
+    }
 </style>
 </head>
 
@@ -74,6 +86,16 @@
                 <a href="#">Home</a>
             </div>
         </nav>
+
+        <div class="page">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, omnis? Facilis, deleniti ex repudiandae
+                numquam magnam, omnis enim id quibusdam qui totam ratione in cupiditate, ullam vero cumque nulla reprehenderit
+                doloribus dolore quae recusandae sunt odio laborum voluptas. Error quas nemo illo labore assumenda et aperiam
+                hic dolore fugit tempora?</p>
+        
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat unde cum aut recusandae incidunt dolor tempora
+                eos debitis. Ullam commodi facilis necessitatibus obcaecati distinctio vel debitis est quam eligendi autem!</p>
+        </div>
 
     </section>
 
