@@ -72,5 +72,22 @@ header
     align-items: center;
     justify-content: center;
     width: 100%;
-    background: url('https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg');
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('https://images.pexels.com/photos/733993/pexels-photo-733993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 82vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+.home h3
+{
+    font-size: 2rem;
+    font-weight:lighter;
+
+}
+.home h1
+{
+    font-size: 4rem;
+    font-weight: bolder;
 }
