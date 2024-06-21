@@ -100,6 +100,7 @@ header
     width: 100%;
     height: 100vh;
     padding:3rem;
+    background-color: #dddddd;
 }
 
 .tour-places
@@ -130,7 +131,8 @@ header
 {
     width: 30%;
     height: auto;
-    background-color: #d0d0d0;
+    background-color: #525252;
+    color: #fff;
 }
 
 .card img 
@@ -141,7 +143,7 @@ header
 
 .card span 
 {
-    background-color: #d0d0d0;
+    /* background-color: #d0d0d0; */
     display: flex;
     justify-content: space-between;
     padding: 1rem 0.2rem;
