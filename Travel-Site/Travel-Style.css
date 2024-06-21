@@ -46,7 +46,7 @@ header
     font-size: 3.2rem;
     /* margin-right: 15rem; */
 }
-.nav-logo p
+.nav-logo .locate
 {
     padding: 10px;
     display: flex;
