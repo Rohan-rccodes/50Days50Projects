@@ -119,10 +119,10 @@ header
 {
   
     width: 100%;
-    padding: 3rem 0;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    padding: 1rem 2rem;
 }
 
 .card
