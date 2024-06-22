@@ -149,3 +149,7 @@ header
     justify-content: space-between;
     padding: 1rem 0.2rem;
 } 
+.card span P 
+{
+    text-transform: uppercase;
+}
