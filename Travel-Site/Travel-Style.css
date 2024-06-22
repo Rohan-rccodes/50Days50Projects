@@ -158,3 +158,34 @@ header
 {
     text-transform: uppercase;
 }
+
+/*---------ABOUT US---------------------*/
+
+.about 
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('https://images.pexels.com/photos/4078070/pexels-photo-4078070.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+}
+.about-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 10%;
+    gap: 2rem;
+}
+.about-card
+{
+   
+    text-align: center;
+}
