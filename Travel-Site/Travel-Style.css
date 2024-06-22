@@ -91,6 +91,11 @@ header
     font-size: 4rem;
     font-weight: bolder;
 }
+.locate span input {
+    border: 0.5px solid #fff;
+    border-radius: 2px;
+    width: 10em;
+}
 
 /*---------tours---------------*/
 
